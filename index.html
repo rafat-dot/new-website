@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mohammadullah">
+    <meta name="description" content="This page contains everything I am learning as I practice HTML">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+<header>
+    <h1>My Goals for the Year</h1>
+    <p>This is my first web page</p>
+
+    <nav aria-label="primary-navigation">
+        <ul>
+            <li><a href="#html">Learn HTML</a></li>
+            <li><a href="#vacation">Planning a Vacation</a></li>
+        </ul>
+    </nav>
+</header>
+
+<hr>
+
+<main>
+
+    <!-- HTML Learning Section -->
+    <article id="html">
+        <h2>My Name is Mohammadullah</h2>
+        <p>I am learning how to create a web page.</p>
+
+        <section>
+            <h3>HTML5</h3>
+            <img src="img/html-5_3128323.png" alt="HTML5 logo" title="I am learning HTML" width="300" height="300">
+
+            <figure>
+                <figcaption>An Example of HTML Code</figcaption>
+                <p><code>&lt;h1&gt;Hello, World!&lt;/h1&gt;</code></p>
+            </figure>
+        </section>
+
+        <section>
+            <h3>I am Ready to Learn HTML</h3>
+
+            <p>My daily schedule:</p>
+            <ol>
+                <li>I plan my schedule</li>
+                <li>
+                    I use resources from
+                    <abbr title="Mozilla Developer Network">
+                        <a href="https://developer.mozilla.org/" target="_blank">MDN</a>
+                    </abbr>
+                </li>
+                <li>I practice coding</li>
+            </ol>
+
+            <aside>
+                <details>
+                    <summary>Guess the <mark>number of hours</mark> I code</summary>
+                    <p>
+                        I start coding at <time datetime="08:00">8 AM</time>
+                        and write code for <time datetime="PT3H">3 hours</time> every day.
+                    </p>
+                </details>
+            </aside>
+
+            <br>
+
+            <table>
+                <caption><strong>My Daily Schedule</strong></caption>
+                <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Activity</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">Morning</th>
+                        <td>
+                            <time datetime="08:00">8 AM</time> -
+                            <time datetime="11:00">11 AM</time>
+                        </td>
+                        <td>Write code</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Break</th>
+                        <td>
+                            <time datetime="11:00">11 AM</time> -
+                            <time datetime="12:00">12 PM</time>
+                        </td>
+                        <td>Eat lunch</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Afternoon</th>
+                        <td>
+                            <time datetime="12:00">12 PM</time> -
+                            <time datetime="17:00">5 PM</time>
+                        </td>
+                        <td>Study other courses</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Evening</th>
+                        <td rowspan="2">All other times</td>
+                        <td>Free time</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Night</th>
+                        <td>Sleep</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3">
+                            That's my routine: eat, sleep, code, and recharge.
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </article>
+
+    <hr>
+
+    <!-- Vacation Section -->
+    <article id="vacation">
+        <h2>I am Planning to Visit a Beach</h2>
+
+        <section>
+            <h3>Places I Would Like to Visit</h3>
+
+            <ul>
+                <li>
+                    <p>I have heard good things about the Caribbean.</p>
+
+                    <figure>
+                        <img src="img/caribbean.jpg" alt="Caribbean beach with clear blue water" width="400" height="225" loading="lazy">
+                        <figcaption>Beautiful Caribbean Beach</figcaption>
+                    </figure>
+
+                    <p>I have been working hard and <em>really need a getaway</em>.</p>
+                    <p>I want to visit a beach someday.</p>
+
+                    <address>
+                        Bahtia Petempich, Puerto Morelos<br>
+                        Colonia Morelos, Mexico 77580
+                    </address>
+
+                    <figure>
+                        <img src="img/vacation.jpg" alt="Relaxing beach vacation view" width="300" height="200" loading="lazy">
+                        <figcaption>A Beach Vacation</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Places I Want to Avoid</h3>
+
+            <dl>
+                <dt>North Pole</dt>
+                <dd>Too cold!</dd>
+
+                <dt>South Pole</dt>
+                <dd>Also very cold.</dd>
+
+                <dt>Mountain Tops</dt>
+                <dd>Cold and harsh weather.</dd>
+            </dl>
+        </section>
+    </article>
+
+</main>
+
+<hr>
+
+<footer> 
+    <p>
+        &lt;&lt;&lt; &copy;
+        <a href="about.html">Mohammadullah</a>
+        &gt;&gt;&gt;
+    </p>
+
+    <p><a href="#">Back to Top</a></p>
+</footer>
+
+</body>
+</html>
